@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados do cliente</title>
+    <style>
+        body{
+            font-family:Arial;
+            background-image: url(fundo.jpeg);
+            margin:100px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 500px;
+            height:400px;
+            margin: auto;
+            background-color: rgb(243, 248, 241);
+            border-radius: 20px;
+        }
+        h1{
+            color:rgb(53, 58, 56);
+            margin-top: 30pt;
+        }
+        p{
+            text-align: center;
+        }
+        button{
+            padding:20pt;
+            background-color: rgb(65, 168, 154);
+            color:white;
+            font: 12pt Arial;
+            margin: 0px 0px 30px;
+            border-radius:20px;
+            border: 1px;
+        }
+        button:hover{
+            background-color:rgb(102, 141, 72);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Dados do Cliente</h1>
+        <button onclick="inserir_dados()">Clique para inserir dados</button>
+        <section id="mostrar_dados">
+            <p>Os seus dados inseridos vão aparecer aqui</p>
+        </section>
+        <img src="" alt="">
+    </div>
+    <script type="text/javascript" src="script_tarefa11.js" ></script>
+
+</body>
+</html>
